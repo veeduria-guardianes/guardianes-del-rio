@@ -122,7 +122,7 @@ export default function QuienesSomosPage() {
                 { src: '/identidad/motivos/venado-azul.png', nombre: 'El venado' },
                 { src: '/identidad/motivos/zarigueya-azul.png', nombre: 'La zarigüeya' },
                 { src: '/identidad/motivos/armadillo-azul.png', nombre: 'El armadillo' },
-                { src: '/identidad/motivos/gallina-azul.png', nombre: 'La gallina' },
+                { src: '/identidad/motivos/ave-azul.png', nombre: 'El ave' },
               ].map(({ src, nombre }) => (
                 <figure key={src} className="flex flex-col items-center gap-3">
                   <Image
@@ -137,7 +137,10 @@ export default function QuienesSomosPage() {
                 </figure>
               ))}
             </div>
-            <p className="mt-3 text-sm text-ink-soft">
+            <p className="mt-4 font-display text-xl text-teal">
+              Cuidar el territorio y el agua es cuidarlos a ellos también.
+            </p>
+            <p className="mt-2 text-sm text-ink-soft">
               Dibujos de la gráfica complementaria oficial, hechos por la comunidad:
               la fauna que vive en las cuencas del Cauca, Las Piedras, Molino y Pisojé.
             </p>

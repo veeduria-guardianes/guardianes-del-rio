@@ -69,28 +69,28 @@ export function SiteFooter() {
         </div>
       </div>
 
-      {/* Fauna del territorio flanqueando el pie, junto a los ríos:
-          el armadillo y el venado (gráfica complementaria oficial, lima
-          sobre verde bosque, como en la franja de cifras). */}
+      {/* Cierre del sitio: las hojas de maíz a la izquierda y el venado como
+          protagonista del final (gráfica complementaria oficial, lima sobre
+          verde bosque). */}
       <Image
-        src="/identidad/motivos/armadillo-lima.png"
+        src="/identidad/motivos/maiz-lima.png"
         alt=""
         width={128}
         height={128}
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-7 left-7 hidden h-24 w-24 object-contain opacity-70 md:block lg:h-32 lg:w-32"
+        className="pointer-events-none absolute bottom-7 left-7 hidden h-24 w-24 object-contain opacity-70 md:block lg:h-28 lg:w-28"
       />
       <Image
         src="/identidad/motivos/venado-lima.png"
         alt=""
-        width={128}
-        height={128}
+        width={224}
+        height={224}
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-7 right-7 hidden h-24 w-24 object-contain opacity-90 md:block lg:h-32 lg:w-32"
+        className="pointer-events-none absolute bottom-5 right-6 hidden h-32 w-32 object-contain opacity-95 md:block lg:h-44 lg:w-44"
       />
 
       {/* (La franja de ríos del pie se retiró; se reubicará cuando el equipo
-          defina su lugar. El armadillo y el venado se mantienen.) */}
+          defina su lugar.) */}
     </footer>
   )
 }
