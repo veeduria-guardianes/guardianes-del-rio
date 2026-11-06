@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import Link from 'next/link'
 
 /**
@@ -64,11 +64,6 @@ export function News() {
             </li>
           ))}
         </ul>
-      </div>
-
-      {/* Ríos oficiales (gráfica complementaria) al pie del lienzo */}
-      <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 h-16 opacity-70">
-        <Image src="/identidad/rios-banda.png" alt="" fill sizes="100vw" className="object-cover object-bottom" />
       </div>
     </section>
   )

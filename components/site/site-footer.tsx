@@ -89,16 +89,8 @@ export function SiteFooter() {
         className="pointer-events-none absolute bottom-7 right-7 hidden h-24 w-24 object-contain opacity-90 md:block lg:h-32 lg:w-32"
       />
 
-      {/* Gráfica complementaria oficial: patrón de ríos (Manual de Identidad) */}
-      <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-4 h-24 w-full overflow-hidden opacity-20">
-        <Image
-          src="/identidad/rios-azules.webp"
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover object-bottom mix-blend-screen"
-        />
-      </div>
+      {/* (La franja de ríos del pie se retiró; se reubicará cuando el equipo
+          defina su lugar. El armadillo y el venado se mantienen.) */}
     </footer>
   )
 }
