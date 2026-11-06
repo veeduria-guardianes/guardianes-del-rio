@@ -1,19 +1,38 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, Droplet } from 'lucide-react'
 
 /**
  * Pilar 1 de la casa de mensajes (04-comunicacion.md): relevancia personal.
  * Conecta el agua de la llave de cada payanense con las cuencas solicitadas.
- * Al pie, la gráfica complementaria oficial de ríos (lámina azul agua).
+ * Encima del título corre la gráfica oficial de ríos (lámina azul agua):
+ * el agua fluye sobre la sección — ver `flujo-rio` en globals.css.
  */
 export function RelevanciaAgua() {
   return (
     <section
       aria-labelledby="agua-tu-llave"
-      className="relative isolate scroll-mt-4 overflow-hidden bg-mist py-16 md:py-20"
+      className="relative isolate scroll-mt-4 overflow-hidden bg-mist pb-16 pt-28 md:pb-20 md:pt-32"
     >
-      <div className="mx-auto grid w-full max-w-[1200px] items-center gap-10 px-6 md:px-10 lg:grid-cols-[auto_1fr_auto]">
+      {/* El río corre por encima de la sección: banda superior con flujo.
+          1600×680 px repetida en horizontal; el desplazamiento de 207 px
+          equivale al ancho exacto del mosaico a 88 px de alto → ciclo
+          continuo sin salto. */}
+      <div
+        aria-hidden="true"
+        className="flujo-rio pointer-events-none absolute inset-x-0 top-0 z-10 h-[88px] opacity-80"
+        style={{
+          backgroundImage: 'url(/identidad/rios-banda.png)',
+          backgroundRepeat: 'repeat-x',
+          backgroundSize: 'auto 100%',
+        }}
+      />
+      {/* Reflejo suave del río en el borde inferior de la banda */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-x-0 top-[88px] h-6 bg-gradient-to-b from-water/25 to-transparent"
+      />
+
+      <div className="relative mx-auto grid w-full max-w-[1200px] items-center gap-10 px-6 md:px-10 lg:grid-cols-[auto_1fr_auto]">
         <span className="grid size-16 shrink-0 place-items-center rounded-full bg-surface text-teal shadow-sm">
           <Droplet className="size-8" strokeWidth={1.5} aria-hidden="true" />
         </span>
@@ -38,11 +57,6 @@ export function RelevanciaAgua() {
           <span className="sr-only">: descubre de dónde viene el agua de Popayán</span>
           <ArrowRight className="size-4" aria-hidden="true" />
         </Link>
-      </div>
-
-      {/* Ríos oficiales (gráfica complementaria) al pie del lienzo */}
-      <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 h-16 opacity-70">
-        <Image src="/identidad/rios-banda.png" alt="" fill sizes="100vw" className="object-cover object-bottom" />
       </div>
     </section>
   )

@@ -132,6 +132,29 @@
   font-size: 10.5px;
 }
 
+/* El río fluye: banda de la gráfica oficial que corre por encima de la
+   sección «El agua que sale de tu llave…». El mosaico de rios-banda.png
+   (1600×680) a 88 px de alto mide 207 px de ancho: desplazar exactamente
+   eso produce un ciclo continuo, sin salto. */
+@keyframes flujo-rio {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -207px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flujo-rio {
+    animation: none;
+  }
+}
+
+.flujo-rio {
+  animation: flujo-rio 26s linear infinite;
+}
+
 .leaflet-container {
   font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 }
