@@ -82,15 +82,14 @@ public/
   clasificación fina del equipo.
 - Formulario de Súmate: conectar a correo/BD (hoy solo valida).
 
-## 📝 Subir a GitHub
+## 📝 Repositorio y despliegue
 
-```bash
-git remote add origin https://github.com/TU-USUARIO/guardianes-del-rio.git
-git push -u origin main
-```
+Repositorio oficial: **https://github.com/veeduria-guardianes/guardianes-del-rio**
+(organización de la veeduría; pedir acceso a su equipo técnico).
 
-En Vercel: «Add New Project» → importar el repo → deploy automático con cada
-push. Dominio objetivo: `guardianesdelrio.org` (registrar A/CNAME según Vercel).
+Despliegue: importar el repo en Vercel/Netlify/Cloudflare (deploy automático
+con cada push) y apuntar los DNS del dominio `guardianesdelrio.org`
+(registrado en Hostinger) según el hospedaje elegido.
 
 ---
 
