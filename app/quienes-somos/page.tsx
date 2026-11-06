@@ -122,7 +122,7 @@ export default function QuienesSomosPage() {
                 { src: '/identidad/motivos/venado-azul.png', nombre: 'El venado' },
                 { src: '/identidad/motivos/zarigueya-azul.png', nombre: 'La zarigüeya' },
                 { src: '/identidad/motivos/armadillo-azul.png', nombre: 'El armadillo' },
-                { src: '/identidad/motivos/campesino-azul.png', nombre: 'El campesino' },
+                { src: '/identidad/motivos/gallina-azul.png', nombre: 'La gallina' },
               ].map(({ src, nombre }) => (
                 <figure key={src} className="flex flex-col items-center gap-3">
                   <Image
@@ -139,8 +139,7 @@ export default function QuienesSomosPage() {
             </div>
             <p className="mt-3 text-sm text-ink-soft">
               Dibujos de la gráfica complementaria oficial, hechos por la comunidad:
-              la fauna y los oficios que viven en las cuencas del Cauca, Las Piedras,
-              Molino y Pisojé.
+              la fauna que vive en las cuencas del Cauca, Las Piedras, Molino y Pisojé.
             </p>
           </section>
 

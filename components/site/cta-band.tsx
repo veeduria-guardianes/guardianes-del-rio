@@ -16,10 +16,10 @@ export function CtaBand() {
       aria-labelledby="sumate-title"
       className="relative isolate scroll-mt-4 overflow-hidden bg-peach py-20 md:py-24"
     >
-      {/* Gráfica complementaria oficial: el campesino y la zarigüeya —la
-          comunidad y la fauna— acompañan el llamado a la acción. */}
+      {/* Gráfica complementaria oficial: la mata de maíz y la zarigüeya —el
+          territorio y su fauna— acompañan el llamado a la acción. */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-4 hidden w-32 opacity-60 lg:block">
-        <Image src="/identidad/motivos/campesino-lima.png" alt="" fill sizes="128px" className="object-contain object-left p-1" />
+        <Image src="/identidad/motivos/maiz2-lima.png" alt="" fill sizes="128px" className="object-contain object-left p-1" />
       </div>
       <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-4 hidden w-32 opacity-60 lg:block">
         <Image src="/identidad/motivos/zarigueya-lima.png" alt="" fill sizes="128px" className="object-contain object-right p-1" />
