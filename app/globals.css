@@ -1,0 +1,137 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-face), Georgia, serif;
+
+  --color-paper: #f8f3ea;
+  --color-surface: #fffdf8;
+  --color-line: #e6dccb;
+  --color-mist: #edf3f2;
+  --color-teal: #366f77;
+  --color-forest: #225130;
+  /* Naranja oficial #DF5E1D oscurecido a #C94F13 para botones y etiquetas con
+     texto pequeño: el naranja puro con texto blanco da 3.2:1 y falla el
+     contraste AA (mínimo 4.5:1). El tono vivo se mantiene en piezas grandes:
+     láminas, pines del mapa y cifras. */
+  --color-ember: #c94f13;
+  --color-lime: #9dc044;
+  --color-water: #7fb9e6;
+  --color-peach: #f9ba6b;
+  --color-ink-soft: #4a5a50;
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  color-scheme: light;
+  --background: #f8f3ea;
+  --foreground: #1f3a2a;
+  --card: #fffdf8;
+  --card-foreground: #1f3a2a;
+  --popover: #fffdf8;
+  --popover-foreground: #1f3a2a;
+  --primary: #366f77;
+  --primary-foreground: #fffdf8;
+  --secondary: #edf3f2;
+  --secondary-foreground: #225130;
+  --muted: #efe7d9;
+  --muted-foreground: #4a5a50;
+  --accent: #edf3f2;
+  --accent-foreground: #225130;
+  --destructive: #df5e1d;
+  --border: #e6dccb;
+  --input: #e6dccb;
+  --ring: #366f77;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-forest;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+.map-tiles-soft {
+  filter: saturate(0.45) sepia(0.12) brightness(1.04) contrast(0.92);
+}
+
+/* Etiquetas de los ríos amenazados sobre el mapa */
+.rio-etiqueta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: rgba(255, 253, 248, 0.95);
+  border: 1.5px solid #3f8fcf;
+  color: #1f4e66;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 17px;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(31, 58, 42, 0.25);
+  cursor: pointer;
+}
+.rio-etiqueta b {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 3px;
+  border-radius: 9999px;
+  background: #c94f13;
+  color: #fffdf8;
+  font-size: 10.5px;
+}
+
+.leaflet-container {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}

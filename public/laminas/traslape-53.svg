@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Lámina: 53% de traslape">
+  <rect width="1080" height="1080" fill="#F8F3EA"/>
+  <rect x="0" y="0" width="1080" height="230" fill="#366F77"/>
+  <text x="80" y="105" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="#FFFDF8">Guardianes del Río</text>
+  <text x="80" y="155" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFDF8" opacity="0.85">Veeduría ciudadana · Popayán, Cauca</text>
+  <text x="80" y="195" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#FFFDF8" opacity="0.7">El agua no se negocia, se defiende.</text>
+
+  <text x="540" y="400" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="6" fill="#4A5A50" text-anchor="middle">SOLICITUD MINERA LBJ-11441</text>
+
+  <text x="540" y="580" font-family="Georgia, 'Times New Roman', serif" font-size="300" font-weight="bold" fill="#DF5E1D" text-anchor="middle">53%</text>
+
+  <text x="540" y="670" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#225130" text-anchor="middle">de su polígono se traslapa con áreas</text>
+  <text x="540" y="716" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#225130" text-anchor="middle">de interés hídrico de Popayán</text>
+
+  <rect x="190" y="770" width="700" height="2" fill="#E6DCCB"/>
+  <text x="540" y="830" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#4A5A50" text-anchor="middle">57,9 hectáreas en las veredas El Sendero y El Hogar,</text>
+  <text x="540" y="868" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#4A5A50" text-anchor="middle">sobre predios del municipio destinados a proteger el agua.</text>
+  <text x="540" y="950" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4A5A50" text-anchor="middle">Fuente: ANM · Acta 001 de 2025, Alcaldía de Popayán · Acueducto de Popayán</text>
+
+  <rect x="0" y="1010" width="1080" height="70" fill="#225130"/>
+  <text x="540" y="1053" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#FFFDF8" text-anchor="middle">Conoce el mapa: guardianesdelrio.org</text>
+</svg>

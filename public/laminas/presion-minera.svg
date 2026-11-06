@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Lámina: presión minera en Popayán">
+  <rect width="1080" height="1080" fill="#F8F3EA"/>
+  <rect x="0" y="0" width="1080" height="230" fill="#366F77"/>
+  <text x="80" y="105" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="#FFFDF8">Guardianes del Río</text>
+  <text x="80" y="155" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFDF8" opacity="0.85">Veeduría ciudadana · Popayán, Cauca</text>
+  <text x="80" y="195" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#FFFDF8" opacity="0.7">El agua no se negocia, se defiende.</text>
+
+  <text x="540" y="330" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="6" fill="#4A5A50" text-anchor="middle">LA PRESIÓN MINERA EN POPAYÁN</text>
+
+  <g>
+    <circle cx="270" cy="480" r="18" fill="#DF5E1D"/>
+    <text x="270" y="580" font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="bold" fill="#225130" text-anchor="middle">19</text>
+    <text x="270" y="640" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#4A5A50" text-anchor="middle">títulos mineros</text>
+    <text x="270" y="674" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#4A5A50" text-anchor="middle">vigentes</text>
+  </g>
+  <g>
+    <circle cx="540" cy="480" r="18" fill="#DF5E1D"/>
+    <text x="540" y="580" font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="bold" fill="#225130" text-anchor="middle">17</text>
+    <text x="540" y="640" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#4A5A50" text-anchor="middle">solicitudes</text>
+    <text x="540" y="674" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#4A5A50" text-anchor="middle">en trámite</text>
+  </g>
+  <g>
+    <circle cx="810" cy="480" r="18" fill="#DF5E1D"/>
+    <text x="810" y="580" font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="bold" fill="#225130" text-anchor="middle">8</text>
+    <text x="810" y="640" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#4A5A50" text-anchor="middle">ya viabilizadas</text>
+    <text x="810" y="674" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#4A5A50" text-anchor="middle">por la ANM</text>
+  </g>
+
+  <rect x="140" y="740" width="800" height="2" fill="#E6DCCB"/>
+  <text x="540" y="810" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#225130" text-anchor="middle">Varias caen sobre las subcuencas que abastecen</text>
+  <text x="540" y="850" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#225130" text-anchor="middle">de agua a la ciudad: Molino-Pubús y Pisojé.</text>
+  <text x="540" y="950" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4A5A50" text-anchor="middle">Fuente: ANM · Acta 001 de 2025, Alcaldía de Popayán</text>
+
+  <rect x="0" y="1010" width="1080" height="70" fill="#225130"/>
+  <text x="540" y="1053" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#FFFDF8" text-anchor="middle">Conoce el mapa: guardianesdelrio.org</text>
+</svg>
