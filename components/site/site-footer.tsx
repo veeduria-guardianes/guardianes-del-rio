@@ -73,12 +73,12 @@ export function SiteFooter() {
           protagonista del final (gráfica complementaria oficial, lima sobre
           verde bosque). */}
       <Image
-        src="/identidad/motivos/maiz-lima.png"
+        src="/identidad/motivos/mata-maiz-lima.png"
         alt=""
         width={128}
         height={128}
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-7 left-7 hidden h-24 w-24 object-contain opacity-70 md:block lg:h-28 lg:w-28"
+        className="pointer-events-none absolute bottom-7 left-7 hidden h-28 w-24 object-contain opacity-70 md:block lg:h-36 lg:w-28"
       />
       <Image
         src="/identidad/motivos/venado-lima.png"
