@@ -69,16 +69,16 @@ export function SiteFooter() {
         </div>
       </div>
 
-      {/* Cierre del sitio: las hojas de maíz a la izquierda y el venado como
-          protagonista del final (gráfica complementaria oficial, lima sobre
-          verde bosque). */}
+      {/* Cierre del sitio: la mata de maíz verde a la izquierda (un poco más
+          grande que el venado, protagonista vegetal del final) y el venado a
+          la derecha (gráfica complementaria oficial, lima sobre verde bosque). */}
       <Image
         src="/identidad/motivos/mata-maiz-lima.png"
         alt=""
-        width={128}
-        height={128}
+        width={240}
+        height={240}
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-7 left-7 hidden h-28 w-24 object-contain opacity-70 md:block lg:h-36 lg:w-28"
+        className="pointer-events-none absolute bottom-5 left-6 hidden h-36 w-36 object-contain opacity-80 md:block lg:h-52 lg:w-52"
       />
       <Image
         src="/identidad/motivos/venado-lima.png"
